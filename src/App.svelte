@@ -103,7 +103,7 @@ import {zones, facts} from './data'
 	{/if}
 	{/each}
 	{#if scrollY  >= 19500}
-				<button on:click={scrollToTop} class='up'>^</button>
+				<button transition:fade on:click={scrollToTop} class='up'>^</button>
 	{/if}
 	
 </main>
